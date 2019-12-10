@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--layout_span là chiếm bao nhiêu cột-->
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:layout_span="2"
+            android:background="#03A9F4"
+            android:text="Dòng 1 Cột 1"
+            />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:background="#03A9F4"
+            android:text="Dòng 2 Cột 1"
+            />
+        <TextView
+            android:background="#03A9F4"
+            android:text="Dòng 2 Cột 2"
+            />
+    </TableRow>
+
+</TableLayout>
